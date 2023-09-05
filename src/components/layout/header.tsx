@@ -57,13 +57,13 @@ const Header: React.FC<Props> = ({ sidebar, setSidebar }) => {
             <div className='hidden lg:block'>
               <div className="relative inline-block text-left p-2" ref={refProfile}>
                 <div className="flex items-center">
-                  <Link href={'/'} className={'no-underline'}>
+                  <Link href={'/'} className={''}>
                     <div className="ml-4 py-2 px-4 rounded text-primary-900 hover:bg-gray-200">{'Home'}</div>
                   </Link>
-                  <Link href={'/blog'} className={'no-underline'}>
+                  <Link href={'/blog'} className={''}>
                     <div className="ml-4 py-2 px-4 rounded text-primary-900 hover:bg-gray-200">{'Blog'}</div>
                   </Link>
-                  <Link href={'/about'} className={'no-underline'}>
+                  <Link href={'/about'} className={''}>
                     <div className="ml-4 py-2 px-4 rounded text-primary-900 hover:bg-gray-200">{'About'}</div>
                   </Link>
                 </div>
@@ -72,13 +72,13 @@ const Header: React.FC<Props> = ({ sidebar, setSidebar }) => {
           </div>
           <div className={`${headerBar ? 'block' : 'hidden'} lg:hidden`}>
             <div className={'h-full p-2'}>
-              <Link href={'/'} className={'no-underline'}>
+              <Link href={'/'} className={''}>
                 <div className="p-2 mb-2 rounded text-primary-900 hover:bg-gray-200">{'Home'}</div>
               </Link>
-              <Link href={'/blog'} className={'no-underline'}>
+              <Link href={'/blog'} className={''}>
                 <div className="p-2 mb-2 rounded text-primary-900 hover:bg-gray-200">{'Blog'}</div>
               </Link>
-              <Link href={'/about'} className={'no-underline'}>
+              <Link href={'/about'} className={''}>
                 <div className="p-2 mb-2 rounded text-primary-900 hover:bg-gray-200">{'About'}</div>
               </Link>
             </div>
