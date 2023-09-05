@@ -105,12 +105,12 @@ const Index: React.FC<Props> = () => {
         </div>
       </div>
       <div>
-        <div className='relative grid grid-cols-2 md:grid-cols-6 gap-1 md:gap-2 mx-4 md:mx-12 -mt-12 z-50'>
+        <div className='relative grid grid-cols-2 md:grid-cols-6 gap-1 md:gap-2 mx-4 md:mx-12 -mt-12'>
           <div className='flex flex-col text-center h-40 bg-gray-800 text-gray-100 rounded'>
             <div className='h-full flex justify-center items-center p-4'>
               <LuNetwork clasName={''} size={'2rem'} />
             </div>
-            <div className='h-full flex justify-center p-4'>
+            <div className='h-full flex justify-center p-2'>
               {'Jasa Instalasi Jaringan LAN'}
             </div>
           </div>
