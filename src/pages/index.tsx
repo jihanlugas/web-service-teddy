@@ -93,7 +93,7 @@ const Index: React.FC<Props> = () => {
                 <Link href={'#'}>
                   <div className='flex items-center bg-red-500 text-white px-4 py-2 rounded'>
                     <div className='mr-4'>
-                      Tentang Kami
+                      Lihat layanan kami
                     </div>
                     <div><FaArrowRightLong clasName={''} size={'1rem'} /></div>
                   </div>

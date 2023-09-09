@@ -1,11 +1,8 @@
 import React, { useContext, useEffect, useState } from 'react';
 import Head from 'next/head';
 import Header from '@/components/layout/header';
-// import Sidebar from '@com/Layout/Sidebar';
-// import { useMutation } from '@tanstack/react-query';
-// import UserContext from '@stores/userProvider';
 import { useRouter } from 'next/router';
-// import { USER_TYPE_ADMIN, USER_TYPE_SAKSI } from '@utils/Constant';
+import Footer from '@/components/layout/footer';
 
 type Props = {
   children: React.ReactNode
@@ -37,6 +34,7 @@ const Main: React.FC<Props> = ({ children }) => {
             {children}
           </div>
         </div>
+        <Footer />
       </main>
     </>
   );
