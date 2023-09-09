@@ -69,35 +69,6 @@ p {
   @apply text-justify;
 }
 
-ul {
-  /* @apply my-4; */
-}
-
-pre {
-  @apply my-4;
-  @apply p-4;
-  @apply bg-gray-800;
-  @apply text-white;
-  @apply rounded;
-}
-
-pre code {
-  @apply p-0;
-  @apply text-sm;
-}
-
-pre code code {
-  @apply bg-green-700;
-}
-
-code {
-  @apply bg-gray-200;
-  @apply px-1;
-  @apply py-1;
-  @apply rounded;
-  @apply text-sm;
-}
-
 a {
   @apply text-blue-500;
   @apply hover:text-blue-600;

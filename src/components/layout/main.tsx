@@ -33,7 +33,7 @@ const Main: React.FC<Props> = ({ children }) => {
       <main className={''}>
         <Header sidebar={sidebar} setSidebar={setSidebar} />
         <div className={'pt-16 overflow-y-auto'}>
-          <div className="w-full max-w-6xl mx-auto">
+          <div className="w-full">
             {children}
           </div>
         </div>
