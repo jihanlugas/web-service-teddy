@@ -32,12 +32,13 @@ const Index: React.FC<Props> = () => {
           </div>
         </div>
       </div>
+
       <div className='h-full bg-neutral-200'>
         <div className='max-w-6xl mx-auto'>
           <div className='relative grid grid-cols-2 md:grid-cols-6 gap-1 md:gap-2 mx-4 md:mx-12 -mt-12'>
             <div className='flex flex-col text-center h-40 bg-gray-800 text-gray-100 rounded'>
               <div className='h-full flex justify-center items-center p-2'>
-                <LuNetwork clasName={''} size={'2rem'} />
+                <LuNetwork className={''} size={'2rem'} />
               </div>
               <div className='h-full flex justify-center p-2'>
                 {'Jasa Instalasi Jaringan LAN'}
@@ -45,7 +46,7 @@ const Index: React.FC<Props> = () => {
             </div>
             <div className='flex flex-col text-center h-40 bg-gray-800 text-gray-100 rounded'>
               <div className='h-full flex justify-center items-center p-2'>
-                <LuWifi clasName={''} size={'2rem'} />
+                <LuWifi className={''} size={'2rem'} />
               </div>
               <div className='h-full flex justify-center p-2'>
                 {'Jasa Instalasi Wireless & Hotspot'}
@@ -53,7 +54,7 @@ const Index: React.FC<Props> = () => {
             </div>
             <div className='flex flex-col text-center h-40 bg-gray-800 text-gray-100 rounded'>
               <div className='h-full flex justify-center items-center p-2'>
-                <BiServer clasName={''} size={'2rem'} />
+                <BiServer className={''} size={'2rem'} />
               </div>
               <div className='h-full flex justify-center p-2'>
                 {'Jasa Instalasi Maintance Server'}
@@ -61,7 +62,7 @@ const Index: React.FC<Props> = () => {
             </div>
             <div className='flex flex-col text-center h-40 bg-gray-800 text-gray-100 rounded'>
               <div className='h-full flex justify-center items-center p-2'>
-                <BiGitBranch clasName={''} size={'2rem'} />
+                <BiGitBranch className={''} size={'2rem'} />
               </div>
               <div className='h-full flex justify-center p-2'>
                 {'Jasa Instalasi Fiber Optic'}
@@ -69,7 +70,7 @@ const Index: React.FC<Props> = () => {
             </div>
             <div className='flex flex-col text-center h-40 bg-gray-800 text-gray-100 rounded'>
               <div className='h-full flex justify-center items-center p-2'>
-                <BiCctv clasName={''} size={'2rem'} />
+                <BiCctv className={''} size={'2rem'} />
               </div>
               <div className='h-full flex justify-center p-2'>
                 {'Jasa Instalasi CCTV'}
@@ -77,7 +78,7 @@ const Index: React.FC<Props> = () => {
             </div>
             <div className='flex flex-col text-center h-40 bg-gray-800 text-gray-100 rounded'>
               <div className='h-full flex justify-center items-center p-2'>
-                <MdComputer clasName={''} size={'2rem'} />
+                <MdComputer className={''} size={'2rem'} />
               </div>
               <div className='h-full flex justify-center p-2'>
                 {'Suplier Hardware'}
@@ -95,7 +96,7 @@ const Index: React.FC<Props> = () => {
                     <div className='mr-4'>
                       Lihat layanan kami
                     </div>
-                    <div><FaArrowRightLong clasName={''} size={'1rem'} /></div>
+                    <div><FaArrowRightLong className={''} size={'1rem'} /></div>
                   </div>
                 </Link>
               </div>
@@ -143,7 +144,7 @@ const Index: React.FC<Props> = () => {
             <div className='col-span-3 grid grid-cols-1 md:grid-cols-2 gap-4'>
               <div className='flex'>
                 <div className='flex-none flex justify-center items-center h-16 w-16 mr-4 bg-neutral-600 rounded text-neutral-50'>
-                  <FaShieldAlt clasName={''} size={'2rem'} />
+                  <FaShieldAlt className={''} size={'2rem'} />
                 </div>
                 <div className='grow'>
                   <div className='font-bold text-lg mb-2'>
@@ -156,7 +157,7 @@ const Index: React.FC<Props> = () => {
               </div>
               <div className='flex'>
                 <div className='flex-none flex justify-center items-center h-16 w-16 mr-4 bg-neutral-600 rounded text-neutral-50'>
-                  <FaUser clasName={''} size={'2rem'} />
+                  <FaUser className={''} size={'2rem'} />
                 </div>
                 <div className='grow'>
                   <div className='font-bold text-lg mb-2'>
@@ -169,7 +170,7 @@ const Index: React.FC<Props> = () => {
               </div>
               <div className='flex'>
                 <div className='flex-none flex justify-center items-center h-16 w-16 mr-4 bg-neutral-600 rounded text-neutral-50'>
-                  <FaHammer clasName={''} size={'2rem'} />
+                  <FaHammer className={''} size={'2rem'} />
                 </div>
                 <div className='grow'>
                   <div className='font-bold text-lg mb-2'>
@@ -182,7 +183,7 @@ const Index: React.FC<Props> = () => {
               </div>
               <div className='flex'>
                 <div className='flex-none flex justify-center items-center h-16 w-16 mr-4 bg-neutral-600 rounded text-neutral-50'>
-                  <FaHandshake clasName={''} size={'2rem'} />
+                  <FaHandshake className={''} size={'2rem'} />
                 </div>
                 <div className='grow'>
                   <div className='font-bold text-lg mb-2'>
