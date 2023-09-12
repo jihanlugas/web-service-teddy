@@ -9,18 +9,6 @@ type Props = {
 }
 
 const Main: React.FC<Props> = ({ children }) => {
-  const [sidebar, setSidebar] = useState<boolean>(true);
-
-  const router = useRouter();
-
-  const onClickOverlay = (isShow: boolean) => {
-    if (isShow === undefined) {
-      setSidebar(!sidebar);
-    } else {
-      setSidebar(isShow);
-    }
-  };
-
 
   return (
     <>
@@ -28,7 +16,7 @@ const Main: React.FC<Props> = ({ children }) => {
         <meta name="theme-color" content={'currentColor'} />
       </Head>
       <main className={''}>
-        <Header sidebar={sidebar} setSidebar={setSidebar} />
+        <Header />
         <div className={'pt-16 overflow-y-auto'}>
           <div className="w-full">
             {children}

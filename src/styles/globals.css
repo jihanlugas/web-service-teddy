@@ -70,6 +70,6 @@ p {
 }
 
 a {
-  @apply text-blue-500;
-  @apply hover:text-blue-600;
+  @apply text-primary-500;
+  @apply hover:text-primary-600;
 }

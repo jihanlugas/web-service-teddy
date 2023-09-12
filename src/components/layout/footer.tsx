@@ -21,7 +21,7 @@ const Footer: React.FC<Props> = () => {
             <div className='col-span-2 my-auto'>
               <div className='flex justify-start md:justify-end'>
                 <Link href={'#'}>
-                  <div className='flex items-center bg-red-500 text-white px-4 py-2 rounded'>
+                  <div className='flex items-center duration-300 bg-primary-500 hover:bg-primary-600 text-white px-4 py-2 rounded'>
                     <div className='mr-4'>
                       Hubungi kami sekarang
                     </div>
