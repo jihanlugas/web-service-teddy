@@ -21,10 +21,16 @@ const Index: React.FC<Props> = () => {
         <title>{process.env.APP_NAME}</title>
         {/* <meta name="description" content={description} /> */}
       </Head>
-      <div className='bg-neutral-800'>
-        <div className='max-w-6xl mx-auto'>
-          <div className='h-96 bg-blue-500 relative'>
-            <Image className='' src={'/index-background.webp'} layout='fill' objectFit='cover' alt={'background'} />
+      <div className='bg-gray-800'>
+        <div className='h-96 bg-blue-500 relative'>
+          <Image
+            src={'/home-background.webp'}
+            alt={'Home Background'}
+            style={{ objectFit: 'cover' }}
+            fill={true}
+          />
+          <div className='bg-gray-900 absolute w-full h-full opacity-20'></div>
+          <div className='max-w-6xl mx-auto'>
             <div className='absolute h-96 w-full max-w-xl flex flex-col justify-center text-gray-50 p-4'>
               <h1 className='font-bold text-gray-50'>{'Infrastructure & Networking Specialist'}</h1>
               <div>{'Dengan pengalaman lebih dari 15 Tahun dibidang Jaringan & Infrastruktur Komputer, Kami siap membantu menciptakan sistem tata kelola jaringan yang baik untuk perusahaan atau instansi anda'}</div>
@@ -33,7 +39,7 @@ const Index: React.FC<Props> = () => {
         </div>
       </div>
 
-      <div className='h-full bg-neutral-200'>
+      <div className='h-full bg-gray-200'>
         <div className='max-w-6xl mx-auto'>
           <div className='relative grid grid-cols-2 md:grid-cols-6 gap-1 md:gap-2 mx-4 md:mx-12 -mt-12'>
             <div className='flex flex-col text-center h-40 bg-gray-800 text-gray-100 rounded'>
@@ -92,7 +98,7 @@ const Index: React.FC<Props> = () => {
               </h2>
               <div className='flex'>
                 <Link href={'#'}>
-                  <div className='flex items-center duration-300 bg-primary-500 hover:bg-primary-600 text-gray-50 px-4 py-2 rounded'>
+                  <div className='flex items-center duration-300 bg-primary-600 hover:bg-primary-500 text-gray-200 hover:text-gray-50 px-4 py-2 rounded'>
                     <div className='mr-4'>
                       Lihat layanan kami
                     </div>
@@ -115,7 +121,7 @@ const Index: React.FC<Props> = () => {
           </div>
         </div>
       </div>
-      {/* <div className='h-full bg-neutral-50'>
+      {/* <div className='h-full bg-gray-50'>
         <div className='max-w-6xl mx-auto py-8 md:py-16'>
           <div className='grid grid-cols-1 md:grid-cols-5 gap-1 p-4'>
             <div className='col-span-2'>
@@ -132,22 +138,22 @@ const Index: React.FC<Props> = () => {
           </div>
         </div>
       </div> */}
-      <div className='h-full bg-neutral-50'>
+      <div className='h-full bg-gray-50'>
         <div className='max-w-6xl mx-auto py-8 md:py-16'>
           <div className='grid grid-cols-1 md:grid-cols-5 gap-4 p-4'>
             <div className='col-span-2'>
-              <div className='font-bold text-lg'>
+              <div className='font-bold text-lg text-gray-800'>
                 Partner tepat untuk hasil yang tepat
               </div>
               <p>Berkomitmen untuk terus memberikan pelayanan terbaik untuk setiap customer</p>
             </div>
             <div className='col-span-3 grid grid-cols-1 md:grid-cols-2 gap-4'>
               <div className='flex'>
-                <div className='flex-none flex justify-center items-center h-16 w-16 mr-4 bg-neutral-600 rounded text-neutral-50'>
+                <div className='flex-none flex justify-center items-center h-16 w-16 mr-4 bg-gray-800 rounded text-gray-50'>
                   <FaShieldAlt className={''} size={'2rem'} />
                 </div>
                 <div className='grow'>
-                  <div className='font-bold text-lg mb-2'>
+                  <div className='font-bold text-lg mb-2 text-gray-800'>
                     Garansi 100%
                   </div>
                   <div className=''>
@@ -156,11 +162,11 @@ const Index: React.FC<Props> = () => {
                 </div>
               </div>
               <div className='flex'>
-                <div className='flex-none flex justify-center items-center h-16 w-16 mr-4 bg-neutral-600 rounded text-neutral-50'>
+                <div className='flex-none flex justify-center items-center h-16 w-16 mr-4 bg-gray-800 rounded text-gray-50'>
                   <FaUser className={''} size={'2rem'} />
                 </div>
                 <div className='grow'>
-                  <div className='font-bold text-lg mb-2'>
+                  <div className='font-bold text-lg mb-2 text-gray-800'>
                     Tim Expert
                   </div>
                   <div className=''>
@@ -169,11 +175,11 @@ const Index: React.FC<Props> = () => {
                 </div>
               </div>
               <div className='flex'>
-                <div className='flex-none flex justify-center items-center h-16 w-16 mr-4 bg-neutral-600 rounded text-neutral-50'>
+                <div className='flex-none flex justify-center items-center h-16 w-16 mr-4 bg-gray-800 rounded text-gray-50'>
                   <FaHammer className={''} size={'2rem'} />
                 </div>
                 <div className='grow'>
-                  <div className='font-bold text-lg mb-2'>
+                  <div className='font-bold text-lg mb-2 text-gray-800'>
                     Berpengalaman
                   </div>
                   <div className=''>
@@ -182,11 +188,11 @@ const Index: React.FC<Props> = () => {
                 </div>
               </div>
               <div className='flex'>
-                <div className='flex-none flex justify-center items-center h-16 w-16 mr-4 bg-neutral-600 rounded text-neutral-50'>
+                <div className='flex-none flex justify-center items-center h-16 w-16 mr-4 bg-gray-800 rounded text-gray-50'>
                   <FaHandshake className={''} size={'2rem'} />
                 </div>
                 <div className='grow'>
-                  <div className='font-bold text-lg mb-2'>
+                  <div className='font-bold text-lg mb-2 text-gray-800'>
                     Dukungan Aftersales
                   </div>
                   <div className=''>

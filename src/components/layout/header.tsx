@@ -126,7 +126,7 @@ const Header: React.FC<Props> = () => {
                       </div>
                     </div>
                   </div>
-                  <Link href={'/about'} className={''}>
+                  <Link href={'/it-support'} className={''}>
                     <div className="py-2 px-4 rounded duration-300 text-gray-800 hover:bg-gray-200">{'Managed IT Support'}</div>
                   </Link>
                   <div className="relative inline-block text-left p-2" ref={refProfile}>
@@ -202,7 +202,7 @@ const Header: React.FC<Props> = () => {
                         </div>
                       </div>
                     </div>
-                    <Link href={'#'} className={''}>
+                    <Link href={'/it-support'} className={''}>
                       <div className="p-2 mb-2 rounded duration-300 text-gray-800 hover:bg-gray-200">{'Managed IT Support'}</div>
                     </Link>
                     <div className={''}>
