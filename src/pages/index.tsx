@@ -204,20 +204,6 @@ const Index: React.FC<Props> = () => {
           </div>
         </div>
       </div>
-      {/* <div className=''>
-        <div className='p-4 col-span-1 md:col-span-4 bg-white shadow'>
-          <div className='grid grid-cols-1 md:grid-cols-2 gap-0 md:gap-4'>
-            {content.map((data, key) => {
-              return (
-                <div key={key} className={''}>
-                  <div>{data.title}</div>
-                  <div>{data.createDt}</div>
-                </div>
-              )
-            })}
-          </div>
-        </div>
-      </div> */}
     </>
   );
 };

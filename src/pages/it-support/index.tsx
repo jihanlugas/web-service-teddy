@@ -3,7 +3,9 @@ import PageWithLayoutType from '@/types/layout';
 import Head from 'next/head';
 import Image from 'next/image';
 import Link from 'next/link';
+import { useState } from 'react';
 import { FaShieldAlt } from 'react-icons/fa';
+import { MdOutlineKeyboardArrowRight } from 'react-icons/md';
 
 
 type Props = {
@@ -11,6 +13,12 @@ type Props = {
 }
 
 const Index: React.FC<Props> = () => {
+
+  const [accordion1, setAccordion1] = useState(false);
+  const [accordion2, setAccordion2] = useState(false);
+  const [accordion3, setAccordion3] = useState(false);
+  const [accordion4, setAccordion4] = useState(false);
+  const [accordion5, setAccordion5] = useState(false);
 
   return (
     <>
@@ -137,25 +145,86 @@ const Index: React.FC<Props> = () => {
               Pertanyaan umum terkait layanan IT Support
             </h2>
             <div className='col-span-3'>
-              <div>
-                <div className='text-lg'>Berapa lama garansi yang diberikan setiap setelah selesai pekerjaan?</div>
-                <p>Kami memberikan service terbaik kepada client , kami juga menyediakan garansi selama 1-3 bulan setelah pekerjaan selesai.</p>
+              <div className='mb-4'>
+                <div className='flex justify-between p-4 bg-gray-200 rounded items-center' onClick={() => setAccordion1(!accordion1)}>
+                  <div className='font-bold text-lg'>
+                    Berapa lama garansi yang diberikan setiap setelah selesai pekerjaan?
+                  </div>
+                  <MdOutlineKeyboardArrowRight className={`rotate-0 duration-500 ${accordion1 && 'rotate-90'}`} size={'1.2em'} />
+                </div>
+                <div className={`duration-500 overflow-hidden ${accordion1 ? 'max-h-40 ' : 'max-h-0 '}`}>
+                  <div className='p-4'>
+                    <p>Kami memberikan service terbaik kepada client , kami juga menyediakan garansi selama 1-3 bulan setelah pekerjaan selesai.</p>
+                  </div>
+                </div>
+              </div>
+              <div className='mb-4'>
+                <div className='flex justify-between p-4 bg-gray-200 rounded items-center' onClick={() => setAccordion2(!accordion2)}>
+                  <div className='font-bold text-lg'>
+                    Apakah dapat belanja sendiri untuk perangkat yang akan dipasang?
+                  </div>
+                  <MdOutlineKeyboardArrowRight className={`rotate-0 duration-500 ${accordion2 && 'rotate-90'}`} size={'1.2em'} />
+                </div>
+                <div className={`duration-500 overflow-hidden ${accordion2 ? 'max-h-40 ' : 'max-h-0 '}`}>
+                  <div className='p-4'>
+                    <p>Anda dapat belanja sendiri untuk kebutuhan perangkat yang akan dipasang.</p>
+                  </div>
+                </div>
+              </div>
+              <div className='mb-4'>
+                <div className='flex justify-between p-4 bg-gray-200 rounded items-center' onClick={() => setAccordion3(!accordion3)}>
+                  <div className='font-bold text-lg'>
+                    Saya sudah memiliki jaringan sebelumnya, apakah bisa hanya menggunakan jasa maintenance saja?
+                  </div>
+                  <MdOutlineKeyboardArrowRight className={`rotate-0 duration-500 ${accordion3 && 'rotate-90'}`} size={'1.2em'} />
+                </div>
+                <div className={`duration-500 overflow-hidden ${accordion3 ? 'max-h-40 ' : 'max-h-0 '}`}>
+                  <div className='p-4'>
+                    <p>Anda dapat menggunakan jasa maintenance kami sesuai dengan kebutuhan anda</p>
+                  </div>
+                </div>
+              </div>
+              <div className='mb-4'>
+                <div className='flex justify-between p-4 bg-gray-200 rounded items-center' onClick={() => setAccordion4(!accordion4)}>
+                  <div className='font-bold text-lg'>
+                    Jika masih dalam masa garansi, apakah dikenakan biaya saat maintenance?
+                  </div>
+                  <MdOutlineKeyboardArrowRight className={`rotate-0 duration-500 ${accordion4 && 'rotate-90'}`} size={'1.2em'} />
+                </div>
+                <div className={`duration-500 overflow-hidden ${accordion4 ? 'max-h-40 ' : 'max-h-0 '}`}>
+                  <div className='p-4'>
+                    <p>Tidak, demi kepuasan client kami memberikan maintenance selama masa garansi dengan FREE.</p>
+                  </div>
+                </div>
+              </div>
+              <div className='mb-4'>
+                <div className='flex justify-between p-4 bg-gray-200 rounded items-center' onClick={() => setAccordion5(!accordion5)}>
+                  <div className='font-bold text-lg'>
+                    Berapa lama idealnya jaringan perlu dicek?
+                  </div>
+                  <MdOutlineKeyboardArrowRight className={`rotate-0 duration-500 ${accordion5 && 'rotate-90'}`} size={'1.2em'} />
+                </div>
+                <div className={`duration-500 overflow-hidden ${accordion5 ? 'max-h-40 ' : 'max-h-0 '}`}>
+                  <div className='p-4'>
+                    <p>Pengecekan jaringan idealnya dilakukan satu bulan sekali</p>
+                  </div>
+                </div>
               </div>
               <div>
-                <div className='text-lg'>Apakah dapat belanja sendiri untuk perangkat yang akan dipasang?</div>
-                <p>Anda dapat belanja sendiri untuk kebutuhan perangkat yang akan dipasang.</p>
+                <div className='text-lg'></div>
+                <p></p>
               </div>
               <div>
-                <div className='text-lg'>Saya sudah memiliki jaringan sebelumnya, apakah bisa hanya menggunakan jasa maintenance saja?</div>
-                <p>Anda dapat menggunakan jasa maintenance kami sesuai dengan kebutuhan anda</p>
+                <div className='text-lg'></div>
+
               </div>
               <div>
-                <div className='text-lg'>Jika masih dalam masa garansi, apakah dikenakan biaya saat maintenance?</div>
-                <p>Tidak, demi kepuasan client kami memberikan maintenance selama masa garansi dengan FREE.</p>
+                <div className='text-lg'></div>
+
               </div>
               <div>
-                <div className='text-lg'>Berapa lama idealnya jaringan perlu dicek?</div>
-                <p>Pengecekan jaringan idealnya dilakukan satu bulan sekali</p>
+                <div className='text-lg'></div>
+
               </div>
             </div>
           </div>
