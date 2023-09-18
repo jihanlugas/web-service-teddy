@@ -59,7 +59,7 @@ const Index: React.FC<Props> = () => {
             <h1 className='font-bold my-4'>{'Apa saja yang dapat kami bantu'}</h1>
             <p>Ruang lingkup pekerjaan terkait Jasa IT Support</p>
           </div>
-          <div className='grid grid-cols-1 md:grid-cols-4 gap-4'>
+          <div className='grid grid-cols-1 md:grid-cols-4 gap-6 md:gap-4'>
             <div>
               <div className='flex-none flex justify-center items-center h-16 w-16 mb-4 bg-gray-800 rounded text-gray-50'>
                 <FaShieldAlt className={''} size={'2rem'} />
@@ -140,91 +140,179 @@ const Index: React.FC<Props> = () => {
       </div>
       <div className='h-full bg-gray-50'>
         <div className='max-w-6xl mx-auto p-4'>
-          <div className='rounded grid grid-cols-1 md:grid-cols-4 gap-4 p-4'>
+          <div className='rounded grid grid-cols-1 md:grid-cols-4 gap-4'>
             <h2 className='my-0'>
               Pertanyaan umum terkait layanan IT Support
             </h2>
             <div className='col-span-3'>
-              <div className='mb-4'>
-                <div className='flex justify-between p-4 bg-gray-200 rounded items-center' onClick={() => setAccordion1(!accordion1)}>
-                  <div className='font-bold text-lg'>
+              <div className='mb-4 border-b-2'>
+                <button className='w-full flex justify-between p-4 rounded items-center' onClick={() => setAccordion1(!accordion1)}>
+                  <div className='font-bold text-lg text-left'>
                     Berapa lama garansi yang diberikan setiap setelah selesai pekerjaan?
                   </div>
-                  <MdOutlineKeyboardArrowRight className={`rotate-0 duration-500 ${accordion1 && 'rotate-90'}`} size={'1.2em'} />
-                </div>
+                  <div className='p-2'>
+                    <MdOutlineKeyboardArrowRight className={`rotate-0 duration-500 ${accordion1 && 'rotate-90'}`} size={'1.2em'} />
+                  </div>
+                </button>
                 <div className={`duration-500 overflow-hidden ${accordion1 ? 'max-h-40 ' : 'max-h-0 '}`}>
                   <div className='p-4'>
                     <p>Kami memberikan service terbaik kepada client , kami juga menyediakan garansi selama 1-3 bulan setelah pekerjaan selesai.</p>
                   </div>
                 </div>
               </div>
-              <div className='mb-4'>
-                <div className='flex justify-between p-4 bg-gray-200 rounded items-center' onClick={() => setAccordion2(!accordion2)}>
-                  <div className='font-bold text-lg'>
+              <div className='mb-4 border-b-2'>
+                <button className='w-full flex justify-between p-4 rounded items-center' onClick={() => setAccordion2(!accordion2)}>
+                  <div className='font-bold text-lg text-left'>
                     Apakah dapat belanja sendiri untuk perangkat yang akan dipasang?
                   </div>
-                  <MdOutlineKeyboardArrowRight className={`rotate-0 duration-500 ${accordion2 && 'rotate-90'}`} size={'1.2em'} />
-                </div>
+                  <div className='p-2'>
+                    <MdOutlineKeyboardArrowRight className={`rotate-0 duration-500 ${accordion2 && 'rotate-90'}`} size={'1.2em'} />
+                  </div>
+                </button>
                 <div className={`duration-500 overflow-hidden ${accordion2 ? 'max-h-40 ' : 'max-h-0 '}`}>
                   <div className='p-4'>
                     <p>Anda dapat belanja sendiri untuk kebutuhan perangkat yang akan dipasang.</p>
                   </div>
                 </div>
               </div>
-              <div className='mb-4'>
-                <div className='flex justify-between p-4 bg-gray-200 rounded items-center' onClick={() => setAccordion3(!accordion3)}>
-                  <div className='font-bold text-lg'>
+              <div className='mb-4 border-b-2'>
+                <button className='w-full flex justify-between p-4 rounded items-center' onClick={() => setAccordion3(!accordion3)}>
+                  <div className='font-bold text-lg text-left'>
                     Saya sudah memiliki jaringan sebelumnya, apakah bisa hanya menggunakan jasa maintenance saja?
                   </div>
-                  <MdOutlineKeyboardArrowRight className={`rotate-0 duration-500 ${accordion3 && 'rotate-90'}`} size={'1.2em'} />
-                </div>
+                  <div className='p-2'>
+                    <MdOutlineKeyboardArrowRight className={`rotate-0 duration-500 ${accordion3 && 'rotate-90'}`} size={'1.2em'} />
+                  </div>
+                </button>
                 <div className={`duration-500 overflow-hidden ${accordion3 ? 'max-h-40 ' : 'max-h-0 '}`}>
                   <div className='p-4'>
                     <p>Anda dapat menggunakan jasa maintenance kami sesuai dengan kebutuhan anda</p>
                   </div>
                 </div>
               </div>
-              <div className='mb-4'>
-                <div className='flex justify-between p-4 bg-gray-200 rounded items-center' onClick={() => setAccordion4(!accordion4)}>
-                  <div className='font-bold text-lg'>
+              <div className='mb-4 border-b-2'>
+                <button className='w-full flex justify-between p-4 rounded items-center' onClick={() => setAccordion4(!accordion4)}>
+                  <div className='font-bold text-lg text-left'>
                     Jika masih dalam masa garansi, apakah dikenakan biaya saat maintenance?
                   </div>
-                  <MdOutlineKeyboardArrowRight className={`rotate-0 duration-500 ${accordion4 && 'rotate-90'}`} size={'1.2em'} />
-                </div>
+                  <div className='p-2'>
+                    <MdOutlineKeyboardArrowRight className={`rotate-0 duration-500 ${accordion4 && 'rotate-90'}`} size={'1.2em'} />
+                  </div>
+                </button>
                 <div className={`duration-500 overflow-hidden ${accordion4 ? 'max-h-40 ' : 'max-h-0 '}`}>
                   <div className='p-4'>
                     <p>Tidak, demi kepuasan client kami memberikan maintenance selama masa garansi dengan FREE.</p>
                   </div>
                 </div>
               </div>
-              <div className='mb-4'>
-                <div className='flex justify-between p-4 bg-gray-200 rounded items-center' onClick={() => setAccordion5(!accordion5)}>
-                  <div className='font-bold text-lg'>
+              <div className='mb-4 border-b-2'>
+                <button className='w-full flex justify-between p-4 rounded items-center' onClick={() => setAccordion5(!accordion5)}>
+                  <div className='font-bold text-lg text-left'>
                     Berapa lama idealnya jaringan perlu dicek?
                   </div>
-                  <MdOutlineKeyboardArrowRight className={`rotate-0 duration-500 ${accordion5 && 'rotate-90'}`} size={'1.2em'} />
-                </div>
+                  <div className='p-2'>
+                    <MdOutlineKeyboardArrowRight className={`rotate-0 duration-500 ${accordion5 && 'rotate-90'}`} size={'1.2em'} />
+                  </div>
+                </button>
                 <div className={`duration-500 overflow-hidden ${accordion5 ? 'max-h-40 ' : 'max-h-0 '}`}>
                   <div className='p-4'>
                     <p>Pengecekan jaringan idealnya dilakukan satu bulan sekali</p>
                   </div>
                 </div>
               </div>
-              <div>
-                <div className='text-lg'></div>
-                <p></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className='h-full bg-gray-50'>
+        <div className='max-w-6xl mx-auto p-4'>
+          <div className='rounded grid grid-cols-1 md:grid-cols-4 gap-4'>
+            <div>
+              <h2 className='my-0'>
+                Klien
+              </h2>
+              <p>Berkomitmen untuk terus memberikan pelayanan terbaik untuk setiap customer</p>
+            </div>
+            <div className='col-span-3 grid grid-cols-2 md:grid-cols-4 gap-4'>
+              <div className='flex justify-center'>
+                <div className='h-36 w-36 relative'>
+                  <Image
+                    src={'/it-support-background.jpg'}
+                    alt={'IT Support Background'}
+                    style={{ objectFit: 'cover' }}
+                    fill={true}
+                  />
+                </div>
               </div>
-              <div>
-                <div className='text-lg'></div>
-
+              <div className='flex justify-center'>
+                <div className='h-36 w-36 relative'>
+                  <Image
+                    src={'/it-support-background.jpg'}
+                    alt={'IT Support Background'}
+                    style={{ objectFit: 'cover' }}
+                    fill={true}
+                  />
+                </div>
               </div>
-              <div>
-                <div className='text-lg'></div>
-
+              <div className='flex justify-center'>
+                <div className='h-36 w-36 relative'>
+                  <Image
+                    src={'/it-support-background.jpg'}
+                    alt={'IT Support Background'}
+                    style={{ objectFit: 'cover' }}
+                    fill={true}
+                  />
+                </div>
               </div>
-              <div>
-                <div className='text-lg'></div>
-
+              <div className='flex justify-center'>
+                <div className='h-36 w-36 relative'>
+                  <Image
+                    src={'/it-support-background.jpg'}
+                    alt={'IT Support Background'}
+                    style={{ objectFit: 'cover' }}
+                    fill={true}
+                  />
+                </div>
+              </div>
+              <div className='flex justify-center'>
+                <div className='h-36 w-36 relative'>
+                  <Image
+                    src={'/it-support-background.jpg'}
+                    alt={'IT Support Background'}
+                    style={{ objectFit: 'cover' }}
+                    fill={true}
+                  />
+                </div>
+              </div>
+              <div className='flex justify-center'>
+                <div className='h-36 w-36 relative'>
+                  <Image
+                    src={'/it-support-background.jpg'}
+                    alt={'IT Support Background'}
+                    style={{ objectFit: 'cover' }}
+                    fill={true}
+                  />
+                </div>
+              </div>
+              <div className='flex justify-center'>
+                <div className='h-36 w-36 relative'>
+                  <Image
+                    src={'/it-support-background.jpg'}
+                    alt={'IT Support Background'}
+                    style={{ objectFit: 'cover' }}
+                    fill={true}
+                  />
+                </div>
+              </div>
+              <div className='flex justify-center'>
+                <div className='h-36 w-36 relative'>
+                  <Image
+                    src={'/it-support-background.jpg'}
+                    alt={'IT Support Background'}
+                    style={{ objectFit: 'cover' }}
+                    fill={true}
+                  />
+                </div>
               </div>
             </div>
           </div>
