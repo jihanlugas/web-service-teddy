@@ -33,7 +33,7 @@ const Index: React.FC<Props> = () => {
           <div className='max-w-6xl mx-auto'>
             <div className='absolute h-96 w-full max-w-xl flex flex-col justify-center text-gray-50 p-4'>
               <h1 className='font-bold text-gray-50'>{'Infrastructure & Networking Specialist'}</h1>
-              <div>{'Dengan pengalaman lebih dari 15 Tahun dibidang Jaringan & Infrastruktur Komputer, Kami siap membantu menciptakan sistem tata kelola jaringan yang baik untuk perusahaan atau instansi anda'}</div>
+              <p className='text-justify'>{'Dengan pengalaman lebih dari 15 Tahun dibidang Jaringan & Infrastruktur Komputer, Kami siap membantu menciptakan sistem tata kelola jaringan yang baik untuk perusahaan atau instansi anda'}</p>
             </div>
           </div>
         </div>
