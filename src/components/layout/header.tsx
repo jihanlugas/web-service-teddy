@@ -149,7 +149,7 @@ const Header: React.FC<Props> = () => {
                       </div>
                     </div>
                   </div>
-                  <Link href={'/about'} className={''}>
+                  <Link href={'/portfolio'} className={''}>
                     <div className="py-2 px-4 rounded duration-300 text-gray-800 hover:bg-gray-200">{'Portfolio'}</div>
                   </Link>
                   <Link href={'/about'} className={''}>
