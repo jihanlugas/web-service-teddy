@@ -435,7 +435,7 @@ const Index: React.FC<Props> = () => {
               <div className='flex justify-center'>
                 <div className='h-36 w-36 relative'>
                   <Image
-                    src={'/pemerintah/bpbd-malang.png'}
+                    src={'/pendidikan/sma-koyasu.png'}
                     alt={'IT Support Background'}
                     style={{ objectFit: 'cover' }}
                     fill={true}
@@ -445,7 +445,7 @@ const Index: React.FC<Props> = () => {
               <div className='flex justify-center'>
                 <div className='h-36 w-36 relative'>
                   <Image
-                    src={'/pemerintah/dispenduk-bojonegoro.png'}
+                    src={'/pendidikan/sma1-babat.png'}
                     alt={'IT Support Background'}
                     style={{ objectFit: 'cover' }}
                     fill={true}
@@ -455,7 +455,7 @@ const Index: React.FC<Props> = () => {
               <div className='flex justify-center'>
                 <div className='h-36 w-36 relative'>
                   <Image
-                    src={'/pemerintah/dispenduk-bondowoso.png'}
+                    src={'/pendidikan/smada-lamongan.png'}
                     alt={'IT Support Background'}
                     style={{ objectFit: 'cover' }}
                     fill={true}
@@ -465,48 +465,7 @@ const Index: React.FC<Props> = () => {
               <div className='flex justify-center'>
                 <div className='h-36 w-36 relative'>
                   <Image
-                    src={'/pemerintah/dispenduk-buton.png'}
-                    alt={'IT Support Background'}
-                    style={{ objectFit: 'cover' }}
-                    fill={true}
-                  />
-                </div>
-              </div>
-
-              <div className='flex justify-center'>
-                <div className='h-36 w-36 relative'>
-                  <Image
-                    src={'/pemerintah/dispenduk-malang.png'}
-                    alt={'IT Support Background'}
-                    style={{ objectFit: 'cover' }}
-                    fill={true}
-                  />
-                </div>
-              </div>
-              <div className='flex justify-center'>
-                <div className='h-36 w-36 relative'>
-                  <Image
-                    src={'/pemerintah/dispenduk-mojokerto.png'}
-                    alt={'IT Support Background'}
-                    style={{ objectFit: 'cover' }}
-                    fill={true}
-                  />
-                </div>
-              </div>
-              <div className='flex justify-center'>
-                <div className='h-36 w-36 relative'>
-                  <Image
-                    src={'/pemerintah/dispenduk-pamekasan.png'}
-                    alt={'IT Support Background'}
-                    style={{ objectFit: 'cover' }}
-                    fill={true}
-                  />
-                </div>
-              </div>
-              <div className='flex justify-center'>
-                <div className='h-36 w-36 relative'>
-                  <Image
-                    src={'/pemerintah/dispenduk-pelelawan.png'}
+                    src={'/pendidikan/smk1-malang.png'}
                     alt={'IT Support Background'}
                     style={{ objectFit: 'cover' }}
                     fill={true}
@@ -517,7 +476,7 @@ const Index: React.FC<Props> = () => {
               <div className='flex justify-center'>
                 <div className='h-36 w-36 relative'>
                   <Image
-                    src={'/pemerintah/dispenduk-probolinggo.png'}
+                    src={'/pendidikan/smk3-batu.png'}
                     alt={'IT Support Background'}
                     style={{ objectFit: 'cover' }}
                     fill={true}
@@ -527,7 +486,7 @@ const Index: React.FC<Props> = () => {
               <div className='flex justify-center'>
                 <div className='h-36 w-36 relative'>
                   <Image
-                    src={'/pemerintah/dispenduk-samarinda.png'}
+                    src={'/pendidikan/smk4-malang.png'}
                     alt={'IT Support Background'}
                     style={{ objectFit: 'cover' }}
                     fill={true}
@@ -537,7 +496,7 @@ const Index: React.FC<Props> = () => {
               <div className='flex justify-center'>
                 <div className='h-36 w-36 relative'>
                   <Image
-                    src={'/pemerintah/dispenduk-sampang.png'}
+                    src={'/pendidikan/smk12.png'}
                     alt={'IT Support Background'}
                     style={{ objectFit: 'cover' }}
                     fill={true}
@@ -547,48 +506,7 @@ const Index: React.FC<Props> = () => {
               <div className='flex justify-center'>
                 <div className='h-36 w-36 relative'>
                   <Image
-                    src={'/pemerintah/dispenduk-trenggalek.png'}
-                    alt={'IT Support Background'}
-                    style={{ objectFit: 'cover' }}
-                    fill={true}
-                  />
-                </div>
-              </div>
-
-              <div className='flex justify-center'>
-                <div className='h-36 w-36 relative'>
-                  <Image
-                    src={'/pemerintah/dispenduk-tuban.png'}
-                    alt={'IT Support Background'}
-                    style={{ objectFit: 'cover' }}
-                    fill={true}
-                  />
-                </div>
-              </div>
-              <div className='flex justify-center'>
-                <div className='h-36 w-36 relative'>
-                  <Image
-                    src={'/pemerintah/disperindag-malang.png'}
-                    alt={'IT Support Background'}
-                    style={{ objectFit: 'cover' }}
-                    fill={true}
-                  />
-                </div>
-              </div>
-              <div className='flex justify-center'>
-                <div className='h-36 w-36 relative'>
-                  <Image
-                    src={'/pemerintah/dpkpp-probolinggo.png'}
-                    alt={'IT Support Background'}
-                    style={{ objectFit: 'cover' }}
-                    fill={true}
-                  />
-                </div>
-              </div>
-              <div className='flex justify-center'>
-                <div className='h-36 w-36 relative'>
-                  <Image
-                    src={'/pemerintah/khagom-mufakat.png'}
+                    src={'/pendidikan/smp-kosayu.png'}
                     alt={'IT Support Background'}
                     style={{ objectFit: 'cover' }}
                     fill={true}
@@ -599,7 +517,7 @@ const Index: React.FC<Props> = () => {
               <div className='flex justify-center'>
                 <div className='h-36 w-36 relative'>
                   <Image
-                    src={'/pemerintah/kominfo-lembata.png'}
+                    src={'/pendidikan/smp4-malang.png'}
                     alt={'IT Support Background'}
                     style={{ objectFit: 'cover' }}
                     fill={true}
@@ -609,7 +527,7 @@ const Index: React.FC<Props> = () => {
               <div className='flex justify-center'>
                 <div className='h-36 w-36 relative'>
                   <Image
-                    src={'/pemerintah/kominfo-malang.png'}
+                    src={'/pendidikan/sttd-bekasi.png'}
                     alt={'IT Support Background'}
                     style={{ objectFit: 'cover' }}
                     fill={true}
@@ -619,7 +537,28 @@ const Index: React.FC<Props> = () => {
               <div className='flex justify-center'>
                 <div className='h-36 w-36 relative'>
                   <Image
-                    src={'/pemerintah/materia-medica-batu.png'}
+                    src={'/pendidikan/ub-fia.png'}
+                    alt={'IT Support Background'}
+                    style={{ objectFit: 'cover' }}
+                    fill={true}
+                  />
+                </div>
+              </div>
+              <div className='flex justify-center'>
+                <div className='h-36 w-36 relative'>
+                  <Image
+                    src={'/pendidikan/ub-fisip.png'}
+                    alt={'IT Support Background'}
+                    style={{ objectFit: 'cover' }}
+                    fill={true}
+                  />
+                </div>
+              </div>
+
+              <div className='flex justify-center'>
+                <div className='h-36 w-36 relative'>
+                  <Image
+                    src={'/pendidikan/ub-fkh.png'}
                     alt={'IT Support Background'}
                     style={{ objectFit: 'cover' }}
                     fill={true}

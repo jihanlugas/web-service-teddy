@@ -24,7 +24,7 @@ const Index: React.FC<Props> = () => {
       <div className='bg-gray-800'>
         <div className='h-96 bg-blue-500 relative'>
           <Image
-            src={'/home-background.webp'}
+            src={'/background/home.webp'}
             alt={'Home Background'}
             style={{ objectFit: 'cover' }}
             fill={true}
