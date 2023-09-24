@@ -87,7 +87,7 @@ const Index: React.FC<Props> = () => {
                 <MdComputer className={''} size={'2rem'} />
               </div>
               <div className='h-full flex justify-center p-2'>
-                {'Suplier Hardware'}
+                {'Supplier Hardware'}
               </div>
             </div>
           </div>

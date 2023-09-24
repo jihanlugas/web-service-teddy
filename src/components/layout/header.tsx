@@ -108,20 +108,20 @@ const Header: React.FC<Props> = () => {
                         <Link href={'/layanan/jasa-installasi-jaringan-lan'}>
                           <div className={'block px-4 py-3 text-gray-600 text-sm capitalize duration-300 hover:bg-gray-200 hover:text-gray-700'}>{'Jasa Installasi Jaringan LAN'}</div>
                         </Link>
-                        <Link href={'#'}>
-                          <div className={'block px-4 py-3 text-gray-600 text-sm capitalize duration-300 hover:bg-gray-200 hover:text-gray-700'}>{'Jasa Installasi Wireless & Hotspot'}</div>
-                        </Link>
-                        <Link href={'#'}>
-                          <div className={'block px-4 py-3 text-gray-600 text-sm capitalize duration-300 hover:bg-gray-200 hover:text-gray-700'}>{'Jasa Installasi Maintance Server'}</div>
-                        </Link>
-                        <Link href={'#'}>
+                        <Link href={'/layanan/jasa-installasi-fiber-optik'}>
                           <div className={'block px-4 py-3 text-gray-600 text-sm capitalize duration-300 hover:bg-gray-200 hover:text-gray-700'}>{'Jasa Installasi Fiber Optic'}</div>
                         </Link>
-                        <Link href={'#'}>
+                        <Link href={'/layanan/jasa-installasi-wireless'}>
+                          <div className={'block px-4 py-3 text-gray-600 text-sm capitalize duration-300 hover:bg-gray-200 hover:text-gray-700'}>{'Jasa Installasi Wireless'}</div>
+                        </Link>
+                        <Link href={'/layanan/jasa-installasi-server'}>
+                          <div className={'block px-4 py-3 text-gray-600 text-sm capitalize duration-300 hover:bg-gray-200 hover:text-gray-700'}>{'Jasa Installasi Server'}</div>
+                        </Link>
+                        <Link href={'/layanan/jasa-installasi-cctv'}>
                           <div className={'block px-4 py-3 text-gray-600 text-sm capitalize duration-300 hover:bg-gray-200 hover:text-gray-700'}>{'Jasa Installasi CCTV'}</div>
                         </Link>
                         <Link href={'#'}>
-                          <div className={'block px-4 py-3 text-gray-600 text-sm capitalize duration-300 hover:bg-gray-200 hover:text-gray-700'}>{'Suplier Hardware'}</div>
+                          <div className={'block px-4 py-3 text-gray-600 text-sm capitalize duration-300 hover:bg-gray-200 hover:text-gray-700'}>{'Supplier Hardware'}</div>
                         </Link>
                       </div>
                     </div>
@@ -184,20 +184,20 @@ const Header: React.FC<Props> = () => {
                           <Link href={'/layanan/jasa-installasi-jaringan-lan'}>
                             <div className='pl-6 pr-2 h-10 flex items-center rounded text-gray-600 text-sm capitalize duration-300 hover:bg-gray-200 hover:text-gray-700'>{'Jasa Installasi Jaringan LAN'}</div>
                           </Link>
-                          <Link href={'#'} className={''}>
-                            <div className='pl-6 pr-2 h-10 flex items-center rounded text-gray-600 text-sm capitalize duration-300 hover:bg-gray-200 hover:text-gray-700'>{'Jasa Installasi Wireless & Hotspot'}</div>
-                          </Link>
-                          <Link href={'#'} className={''}>
-                            <div className='pl-6 pr-2 h-10 flex items-center rounded text-gray-600 text-sm capitalize duration-300 hover:bg-gray-200 hover:text-gray-700'>{'Jasa Installasi Maintance Server'}</div>
-                          </Link>
-                          <Link href={'#'} className={''}>
+                          <Link href={'/layanan/jasa-installasi-fiber-optik'}>
                             <div className='pl-6 pr-2 h-10 flex items-center rounded text-gray-600 text-sm capitalize duration-300 hover:bg-gray-200 hover:text-gray-700'>{'Jasa Installasi Fiber Optic'}</div>
                           </Link>
-                          <Link href={'#'} className={''}>
+                          <Link href={'/layanan/jasa-installasi-wireless'}>
+                            <div className='pl-6 pr-2 h-10 flex items-center rounded text-gray-600 text-sm capitalize duration-300 hover:bg-gray-200 hover:text-gray-700'>{'Jasa Installasi Wireless'}</div>
+                          </Link>
+                          <Link href={'/layanan/jasa-server'}>
+                            <div className='pl-6 pr-2 h-10 flex items-center rounded text-gray-600 text-sm capitalize duration-300 hover:bg-gray-200 hover:text-gray-700'>{'Jasa Installasi Server'}</div>
+                          </Link>
+                          <Link href={'/layanan/jasa-installasi-cctv'}>
                             <div className='pl-6 pr-2 h-10 flex items-center rounded text-gray-600 text-sm capitalize duration-300 hover:bg-gray-200 hover:text-gray-700'>{'Jasa Installasi CCTV'}</div>
                           </Link>
                           <Link href={'#'} className={''}>
-                            <div className='pl-6 pr-2 h-10 flex items-center rounded text-gray-600 text-sm capitalize duration-300 hover:bg-gray-200 hover:text-gray-700'>{'Suplier Hardware'}</div>
+                            <div className='pl-6 pr-2 h-10 flex items-center rounded text-gray-600 text-sm capitalize duration-300 hover:bg-gray-200 hover:text-gray-700'>{'Supplier Hardware'}</div>
                           </Link>
                         </div>
                       </div>

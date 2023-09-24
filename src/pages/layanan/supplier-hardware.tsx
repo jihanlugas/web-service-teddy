@@ -15,7 +15,7 @@ type Props = {
 
 }
 
-const Index: React.FC<Props> = () => {
+const SupplierHardware: React.FC<Props> = () => {
 
   const [accordion1, setAccordion1] = useState(false);
   const [accordion2, setAccordion2] = useState(false);
@@ -32,7 +32,7 @@ const Index: React.FC<Props> = () => {
       <div className='bg-neutral-800'>
         <div className='h-96 relative'>
           <Image
-            src={'/background/it-support.jpg'}
+            src={'/background/jasa-installasi-jaringan-lan.jpg'}
             alt={'IT Support Background'}
             style={{ objectFit: 'cover' }}
             fill={true}
@@ -40,8 +40,8 @@ const Index: React.FC<Props> = () => {
           <div className='bg-gray-900 absolute w-full h-full opacity-20'></div>
           <div className='max-w-6xl mx-auto'>
             <div className='absolute h-96 w-full max-w-xl flex flex-col justify-center text-gray-50 p-4'>
-              <h1 className='font-bold text-gray-50 my-4'>{'Managed IT Support'}</h1>
-              <p className='mt-0 mb-4 md:mb-8 text-justify'>{'Pengelolaan jaringan yang baik akan membantu pekerjaan anda menjadi lebih maksimal. Jaringan yang sudah dikelola dengan baik, akan mendukung kelancaran operasional pekerjaan dan meminimalisir potensi-potensi gangguan yang mungkin terjadi. Dengan pengalaman kami dalam mengelola jaringan intranet klien, pada layanan ini kami berfokus untuk mengelola sistem jaringan anda menjadi lebih tertata dan terstruktur'}</p>
+              <h1 className='font-bold text-gray-50 my-4'>{'Supplier Hardware'}</h1>
+              <p className='mt-0 mb-4 md:mb-8 text-justify'>{'Melayani permintaan penawaran harga untuk Perangkat-Perangkat Networking. Kami bisa melayani berbagai segmen yang ada. Mulai skala kecil, menengah, sampai skala besar. Kami bisa menyesuaikan penawaran perangkat kami sesuai dengan kebutuhan dan budget yang sudah dialokasikan. Dengan pengalaman kami, kami juga bisa merekomendasikan perangkat terbaik yang sesuai dengan kebutuhan anda'}</p>
               <div className='flex justify-start'>
                 <Link href={'#'}>
                   <div className='flex items-center duration-300 bg-primary-600 hover:bg-primary-500 text-gray-200 hover:text-gray-50 px-4 py-2 rounded'>
@@ -55,69 +55,68 @@ const Index: React.FC<Props> = () => {
           </div>
         </div>
       </div>
-
       <div className='h-full bg-gray-50'>
         <div className='max-w-6xl mx-auto p-4 py-8 md:py-16'>
           <div className='mb-16'>
             <h1 className='font-bold my-4'>{'Apa saja yang dapat kami bantu'}</h1>
-            <p>Ruang lingkup pekerjaan terkait Jasa IT Support</p>
+            <p>Ruang lingkup pekerjaan terkait Jasa supplier hardware</p>
           </div>
           <div className='grid grid-cols-1 md:grid-cols-4 gap-6 md:gap-4'>
             <div>
               <div className='flex-none flex justify-center items-center h-16 w-16 mb-4 bg-gray-800 rounded text-gray-50'>
                 <FaShieldAlt className={''} size={'2rem'} />
               </div>
-              <div className='font-bold text-lg mb-2 text-gray-800'>Monitoring</div>
-              <p className={'my-2'}>Memantau perkembangan bandwidth jaringan anda.</p>
+              <div className='font-bold text-lg mb-2 text-gray-800'>Perangkat Jaringan Komputer</div>
+              <p className={'my-2'}>Perencanaan spesifikasi dan pembelian Perangkat Jaringan Komputer.</p>
             </div>
             <div>
               <div className='flex-none flex justify-center items-center h-16 w-16 mb-4 bg-gray-800 rounded text-gray-50'>
                 <FaShieldAlt className={''} size={'2rem'} />
               </div>
-              <div className='font-bold text-lg mb-2 text-gray-800'>Alokasi Bandwidth</div>
-              <p className={'my-2'}>Mengelola jumlah bandwidth untuk dialokasikan ke tiap jalur jaringan internet.</p>
+              <div className='font-bold text-lg mb-2 text-gray-800'>Perangkat Komputer & Komponen Komputer</div>
+              <p className={'my-2'}>Perencanaan spesifikasi dan pembelian Perangkat Komputer & Komponen Komputer.</p>
             </div>
             <div>
               <div className='flex-none flex justify-center items-center h-16 w-16 mb-4 bg-gray-800 rounded text-gray-50'>
                 <FaShieldAlt className={''} size={'2rem'} />
               </div>
-              <div className='font-bold text-lg mb-2 text-gray-800'>Pemetaan IP Address</div>
-              <p className={'my-2'}>Menentukan IP Address untuk setiap jalur jaringan internet agar lebih terstruktur.</p>
+              <div className='font-bold text-lg mb-2 text-gray-800'>Aksesoris Komputer & Jaringan Komputer</div>
+              <p className={'my-2'}>Perencanaan spesifikasi dan pembelian Perangkat Aksesoris Komputer & Jaringan Komputer.</p>
             </div>
             <div>
               <div className='flex-none flex justify-center items-center h-16 w-16 mb-4 bg-gray-800 rounded text-gray-50'>
                 <FaShieldAlt className={''} size={'2rem'} />
               </div>
-              <div className='font-bold text-lg mb-2 text-gray-800'>Konfigurasi Firewall</div>
-              <p className={'my-2'}>Setting firewall untuk melakukan block port virus, menambahkan rule pada jaringan anda.</p>
+              <div className='font-bold text-lg mb-2 text-gray-800'>Perangkat Infrastrukture Jaringan Komputer</div>
+              <p className={'my-2'}>Perencanaan spesifikasi dan pembelian Perangkat Infrastruktur Jaringan Komputer.</p>
             </div>
             <div>
               <div className='flex-none flex justify-center items-center h-16 w-16 mb-4 bg-gray-800 rounded text-gray-50'>
                 <FaShieldAlt className={''} size={'2rem'} />
               </div>
-              <div className='font-bold text-lg mb-2 text-gray-800'>Instalasi & Perapian Jaringan</div>
-              <p className={'my-2'}>Membantu anda dalam memperluas jangkauan jaringan, seperti penambahan perangkat jaringan maupun perapian.</p>
+              <div className='font-bold text-lg mb-2 text-gray-800'>Perangkat Server (Software & Hardware)</div>
+              <p className={'my-2'}>Perencanaan spesifikasi dan pembelian Perangkat Server.</p>
             </div>
             <div>
               <div className='flex-none flex justify-center items-center h-16 w-16 mb-4 bg-gray-800 rounded text-gray-50'>
                 <FaShieldAlt className={''} size={'2rem'} />
               </div>
-              <div className='font-bold text-lg mb-2 text-gray-800'>Support 24/7</div>
-              <p className={'my-2'}>24 jam memberikan support untuk anda seputar jaringan.</p>
+              <div className='font-bold text-lg mb-2 text-gray-800'>Perangkat PABX</div>
+              <p className={'my-2'}>Perencanaan spesifikasi dan pembelian Perangkat PABX.</p>
             </div>
             <div>
               <div className='flex-none flex justify-center items-center h-16 w-16 mb-4 bg-gray-800 rounded text-gray-50'>
                 <FaShieldAlt className={''} size={'2rem'} />
               </div>
-              <div className='font-bold text-lg mb-2 text-gray-800'>Maintenance</div>
-              <p className={'my-2'}>Perbaikan dan perawatan pada ruang lingkup jaringan.</p>
+              <div className='font-bold text-lg mb-2 text-gray-800'>Perangkat Security</div>
+              <p className={'my-2'}>Perencanaan spesifikasi dan pembelian perangkat security seperti cctv, fingerprint maupun elektronik lainnya.</p>
             </div>
             <div>
               <div className='flex-none flex justify-center items-center h-16 w-16 mb-4 bg-gray-800 rounded text-gray-50'>
                 <FaShieldAlt className={''} size={'2rem'} />
               </div>
-              <div className='font-bold text-lg mb-2 text-gray-800'>Troubleshooting</div>
-              <p className={'my-2'}>Mengatasi permasalahan dalam jaringan anda.</p>
+              <div className='font-bold text-lg mb-2 text-gray-800'>Maintenance Perangkat</div>
+              <p className={'my-2'}>Selain pengadaan kamu juga menyediakan jasa maintenance perangkat jaringan perusahaan anda.</p>
             </div>
           </div>
         </div>
@@ -145,7 +144,7 @@ const Index: React.FC<Props> = () => {
         <div className='max-w-6xl mx-auto p-4'>
           <div className='rounded grid grid-cols-1 md:grid-cols-4 gap-4'>
             <h2 className='my-0'>
-              Pertanyaan umum terkait layanan jasa instalasi fiber optik
+              Pertanyaan umum terkait layanan jasa instalasi & hardware supplier
             </h2>
             <div className='col-span-3'>
               <div className='mb-4 border-b-2'>
@@ -430,6 +429,6 @@ const Index: React.FC<Props> = () => {
   );
 };
 
-(Index as PageWithLayoutType).layout = Main;
+(SupplierHardware as PageWithLayoutType).layout = Main;
 
-export default Index;
+export default SupplierHardware;
