@@ -7,8 +7,11 @@ import { useState } from 'react';
 import { LuNetwork, LuWifi } from 'react-icons/lu';
 import { MdOutlineKeyboardArrowRight } from 'react-icons/md';
 import { BiServer, BiGitBranch, BiCctv } from 'react-icons/bi';
-import { FaShieldAlt } from 'react-icons/fa';
-import { MdComputer } from 'react-icons/md';
+import { FaNetworkWired } from 'react-icons/fa';
+import { MdComputer, MdOutlineDesignServices, MdOutlineInstallMobile, MdCable, MdOutlineSettingsBrightness, MdOutlineNetworkCheck } from 'react-icons/md';
+import { IoGitNetwork } from 'react-icons/io5';
+import { RiSurveyLine } from 'react-icons/ri';
+import { PiShareNetworkFill } from 'react-icons/pi';
 
 
 type Props = {
@@ -64,56 +67,56 @@ const JasaInstallasiFiberOptik: React.FC<Props> = () => {
           <div className='grid grid-cols-1 md:grid-cols-4 gap-6 md:gap-4'>
             <div>
               <div className='flex-none flex justify-center items-center h-16 w-16 mb-4 bg-gray-800 rounded text-gray-50'>
-                <FaShieldAlt className={''} size={'2rem'} />
+                <RiSurveyLine className={''} size={'2rem'} />
               </div>
               <div className='font-bold text-lg mb-2 text-gray-800'>Survey Lokasi</div>
               <p className={'my-2'}>Menganalisa medan pada lokasi yang akan digunakan untuk instalasi.</p>
             </div>
             <div>
               <div className='flex-none flex justify-center items-center h-16 w-16 mb-4 bg-gray-800 rounded text-gray-50'>
-                <FaShieldAlt className={''} size={'2rem'} />
+                <MdOutlineDesignServices className={''} size={'2rem'} />
               </div>
               <div className='font-bold text-lg mb-2 text-gray-800'>Perencanaan</div>
               <p className={'my-2'}>Perencanaan perangkat apa yang akan digunakan seperti kabel dan aksesoris lainnya.</p>
             </div>
             <div>
               <div className='flex-none flex justify-center items-center h-16 w-16 mb-4 bg-gray-800 rounded text-gray-50'>
-                <FaShieldAlt className={''} size={'2rem'} />
+                <FaNetworkWired className={''} size={'2rem'} />
               </div>
               <div className='font-bold text-lg mb-2 text-gray-800'>Pemetaan Titik Jaringan</div>
               <p className={'my-2'}>Menentukan titik mana saja yang akan dipasang perangkat jaringan fiber optik..</p>
             </div>
             <div>
               <div className='flex-none flex justify-center items-center h-16 w-16 mb-4 bg-gray-800 rounded text-gray-50'>
-                <FaShieldAlt className={''} size={'2rem'} />
+                <MdOutlineInstallMobile className={''} size={'2rem'} />
               </div>
               <div className='font-bold text-lg mb-2 text-gray-800'>Instalasi Kabel Fiber Optik</div>
               <p className={'my-2'}>Proses instalasi kabel Fiber Optik ke titik yang sudah ditentukan.</p>
             </div>
             <div>
               <div className='flex-none flex justify-center items-center h-16 w-16 mb-4 bg-gray-800 rounded text-gray-50'>
-                <FaShieldAlt className={''} size={'2rem'} />
+                <IoGitNetwork className={''} size={'2rem'} />
               </div>
               <div className='font-bold text-lg mb-2 text-gray-800'>Splicing</div>
               <p className={'my-2'}>Penyambungan kabel Fiber Optik dengan patch cord.</p>
             </div>
             <div>
               <div className='flex-none flex justify-center items-center h-16 w-16 mb-4 bg-gray-800 rounded text-gray-50'>
-                <FaShieldAlt className={''} size={'2rem'} />
+                <PiShareNetworkFill className={''} size={'2rem'} />
               </div>
               <div className='font-bold text-lg mb-2 text-gray-800'>Terminasi</div>
               <p className={'my-2'}>Pemasangan konektor pada ujung kabel fiber optik.</p>
             </div>
             <div>
               <div className='flex-none flex justify-center items-center h-16 w-16 mb-4 bg-gray-800 rounded text-gray-50'>
-                <FaShieldAlt className={''} size={'2rem'} />
+                <MdCable className={''} size={'2rem'} />
               </div>
               <div className='font-bold text-lg mb-2 text-gray-800'>Perapian Kabel</div>
               <p className={'my-2'}>Proses menata letak kabel agar terlihat lebih rapi dan memudahkan untuk pencarian jalur kabel.</p>
             </div>
             <div>
               <div className='flex-none flex justify-center items-center h-16 w-16 mb-4 bg-gray-800 rounded text-gray-50'>
-                <FaShieldAlt className={''} size={'2rem'} />
+                <MdOutlineNetworkCheck className={''} size={'2rem'} />
               </div>
               <div className='font-bold text-lg mb-2 text-gray-800'>Tes OTDR</div>
               <p className={'my-2'}>Pengujian pada kabel fiber optik.</p>
