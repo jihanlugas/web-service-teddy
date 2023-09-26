@@ -5,10 +5,14 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { useState } from 'react';
 import { LuNetwork, LuWifi } from 'react-icons/lu';
-import { MdOutlineKeyboardArrowRight } from 'react-icons/md';
+import { MdOutlineKeyboardArrowRight, MdOutlineNetworkCheck } from 'react-icons/md';
 import { BiServer, BiGitBranch, BiCctv } from 'react-icons/bi';
-import { FaShieldAlt } from 'react-icons/fa';
-import { MdComputer } from 'react-icons/md';
+import { FaShieldAlt, FaNetworkWired } from 'react-icons/fa';
+import { MdComputer, MdOutlineDesignServices, MdOutlineSettingsBrightness, MdSettingsSystemDaydream } from 'react-icons/md';
+import { VscPackage } from 'react-icons/vsc';
+import { RiSurveyLine } from 'react-icons/ri';
+import { TbSettingsCog } from 'react-icons/tb';
+import { GrSystem } from 'react-icons/gr';
 
 
 type Props = {
@@ -32,7 +36,7 @@ const JasaInstallasiCctv: React.FC<Props> = () => {
       <div className='bg-neutral-800'>
         <div className='h-96 relative'>
           <Image
-            src={'/background/jasa-installasi-jaringan-lan.jpg'}
+            src={'/background/jasa-installasi-cctv.jpg'}
             alt={'IT Support Background'}
             style={{ objectFit: 'cover' }}
             fill={true}
@@ -64,56 +68,56 @@ const JasaInstallasiCctv: React.FC<Props> = () => {
           <div className='grid grid-cols-1 md:grid-cols-4 gap-6 md:gap-4'>
             <div>
               <div className='flex-none flex justify-center items-center h-16 w-16 mb-4 bg-gray-800 rounded text-gray-50'>
-                <FaShieldAlt className={''} size={'2rem'} />
+                <VscPackage className={''} size={'2rem'} />
               </div>
               <div className='font-bold text-lg mb-2 text-gray-800'>Pengadaan Perangkat</div>
               <p className={'my-2'}>Selain jasa instalasi Peta Network juga menyediakan jasa pengadaan perangkat.</p>
             </div>
             <div>
               <div className='flex-none flex justify-center items-center h-16 w-16 mb-4 bg-gray-800 rounded text-gray-50'>
-                <FaShieldAlt className={''} size={'2rem'} />
+                <RiSurveyLine className={''} size={'2rem'} />
               </div>
               <div className='font-bold text-lg mb-2 text-gray-800'>Survey Lokasi</div>
               <p className={'my-2'}>Menganalisa medan pada lokasi yang akan dipasangi CCTV.</p>
             </div>
             <div>
               <div className='flex-none flex justify-center items-center h-16 w-16 mb-4 bg-gray-800 rounded text-gray-50'>
-                <FaShieldAlt className={''} size={'2rem'} />
+                <MdOutlineDesignServices className={''} size={'2rem'} />
               </div>
               <div className='font-bold text-lg mb-2 text-gray-800'>Perencanaan</div>
               <p className={'my-2'}>Perencanaan perangkat apa yang akan digunakan seperti CCTV, DVR, maupun jenis kabel.</p>
             </div>
             <div>
               <div className='flex-none flex justify-center items-center h-16 w-16 mb-4 bg-gray-800 rounded text-gray-50'>
-                <FaShieldAlt className={''} size={'2rem'} />
+                <FaNetworkWired className={''} size={'2rem'} />
               </div>
               <div className='font-bold text-lg mb-2 text-gray-800'>Pemetaan Titik CCTV</div>
               <p className={'my-2'}>Menentukan area titik mana saja yang akan dipasang perangkat CCTV.</p>
             </div>
             <div>
               <div className='flex-none flex justify-center items-center h-16 w-16 mb-4 bg-gray-800 rounded text-gray-50'>
-                <FaShieldAlt className={''} size={'2rem'} />
+                <MdSettingsSystemDaydream className={''} size={'2rem'} />
               </div>
               <div className='font-bold text-lg mb-2 text-gray-800'>Instalasi dan Perapian</div>
               <p className={'my-2'}>Proses instalasi dan perapian perangkat untuk menambah nilai estetika.</p>
             </div>
             <div>
               <div className='flex-none flex justify-center items-center h-16 w-16 mb-4 bg-gray-800 rounded text-gray-50'>
-                <FaShieldAlt className={''} size={'2rem'} />
+                <MdOutlineSettingsBrightness className={''} size={'2rem'} />
               </div>
               <div className='font-bold text-lg mb-2 text-gray-800'>Konfigurasi Perangkat</div>
               <p className={'my-2'}>Setting perangkat sesuai dengan kebutuhan bisnis anda .</p>
             </div>
             <div>
               <div className='flex-none flex justify-center items-center h-16 w-16 mb-4 bg-gray-800 rounded text-gray-50'>
-                <FaShieldAlt className={''} size={'2rem'} />
+                <MdOutlineNetworkCheck className={''} size={'2rem'} />
               </div>
               <div className='font-bold text-lg mb-2 text-gray-800'>Tes Perangkat</div>
               <p className={'my-2'}>Melakukan uji coba perangkat yang sudah terpasang berjalan dengan baik.</p>
             </div>
             <div>
               <div className='flex-none flex justify-center items-center h-16 w-16 mb-4 bg-gray-800 rounded text-gray-50'>
-                <FaShieldAlt className={''} size={'2rem'} />
+                <TbSettingsCog className={''} size={'2rem'} />
               </div>
               <div className='font-bold text-lg mb-2 text-gray-800'>Maintenance</div>
               <p className={'my-2'}>Kami juga menyediakan jasa maintenance cctv demi menunjang keamanan dan kenyamanan perusahaan anda.</p>

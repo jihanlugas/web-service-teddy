@@ -5,10 +5,19 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { useState } from 'react';
 import { LuNetwork, LuWifi } from 'react-icons/lu';
-import { MdOutlineKeyboardArrowRight } from 'react-icons/md';
 import { BiServer, BiGitBranch, BiCctv } from 'react-icons/bi';
-import { FaShieldAlt } from 'react-icons/fa';
-import { MdComputer } from 'react-icons/md';
+import { FaShieldAlt, FaNetworkWired } from 'react-icons/fa';
+import {
+  MdComputer,
+  MdOutlineKeyboardArrowRight,
+  MdCable,
+  MdOutlineSettingsBrightness,
+  MdOutlineNetworkCheck,
+} from 'react-icons/md';
+import { RiSurveyLine } from 'react-icons/ri';
+import { TbDeviceDesktopAnalytics } from 'react-icons/tb';
+import { TbMapOff } from 'react-icons/tb';
+import { GrSystem } from 'react-icons/gr';
 
 
 type Props = {
@@ -64,56 +73,56 @@ const JasaInstallasiWireless: React.FC<Props> = () => {
           <div className='grid grid-cols-1 md:grid-cols-4 gap-6 md:gap-4'>
             <div>
               <div className='flex-none flex justify-center items-center h-16 w-16 mb-4 bg-gray-800 rounded text-gray-50'>
-                <FaShieldAlt className={''} size={'2rem'} />
+                <RiSurveyLine className={''} size={'2rem'} />
               </div>
               <div className='font-bold text-lg mb-2 text-gray-800'>Survey Coverage</div>
               <p className={'my-2'}>Menentukan area coverage sinyal untuk akses yang lebih mudah dan cepat.</p>
             </div>
             <div>
               <div className='flex-none flex justify-center items-center h-16 w-16 mb-4 bg-gray-800 rounded text-gray-50'>
-                <FaShieldAlt className={''} size={'2rem'} />
+                <TbMapOff className={''} size={'2rem'} />
               </div>
               <div className='font-bold text-lg mb-2 text-gray-800'>Survey Blankspot</div>
               <p className={'my-2'}>Memantau kemungkinan penghalang untuk coverage sinyal.</p>
             </div>
             <div>
               <div className='flex-none flex justify-center items-center h-16 w-16 mb-4 bg-gray-800 rounded text-gray-50'>
-                <FaShieldAlt className={''} size={'2rem'} />
+                <FaNetworkWired className={''} size={'2rem'} />
               </div>
               <div className='font-bold text-lg mb-2 text-gray-800'>Pemetaan Titik Sinyal</div>
               <p className={'my-2'}>Menentukan titik pemasangan perangkat wireless untuk hasil yang maksimal.</p>
             </div>
             <div>
               <div className='flex-none flex justify-center items-center h-16 w-16 mb-4 bg-gray-800 rounded text-gray-50'>
-                <FaShieldAlt className={''} size={'2rem'} />
+                <MdSettingsSystemDaydream className={''} size={'2rem'} />
               </div>
               <div className='font-bold text-lg mb-2 text-gray-800'>Instalasi</div>
               <p className={'my-2'}>Proses instalasi perangkat wireless.</p>
             </div>
             <div>
               <div className='flex-none flex justify-center items-center h-16 w-16 mb-4 bg-gray-800 rounded text-gray-50'>
-                <FaShieldAlt className={''} size={'2rem'} />
+                <MdCable className={''} size={'2rem'} />
               </div>
               <div className='font-bold text-lg mb-2 text-gray-800'>Perapian</div>
               <p className={'my-2'}>Perapian perangkat untuk menambah nilai estetika.</p>
             </div>
             <div>
               <div className='flex-none flex justify-center items-center h-16 w-16 mb-4 bg-gray-800 rounded text-gray-50'>
-                <FaShieldAlt className={''} size={'2rem'} />
+                <MdOutlineSettingsBrightness className={''} size={'2rem'} />
               </div>
               <div className='font-bold text-lg mb-2 text-gray-800'>Konfigurasi Perangkat</div>
               <p className={'my-2'}>Setting perangkat sesuai dengan perencanaan.</p>
             </div>
             <div>
               <div className='flex-none flex justify-center items-center h-16 w-16 mb-4 bg-gray-800 rounded text-gray-50'>
-                <FaShieldAlt className={''} size={'2rem'} />
+                <TbDeviceDesktopAnalytics className={''} size={'2rem'} />
               </div>
               <div className='font-bold text-lg mb-2 text-gray-800'>Tes Perangkat</div>
               <p className={'my-2'}>Tes perangkat apakah berjalan dengan baik.</p>
             </div>
             <div>
               <div className='flex-none flex justify-center items-center h-16 w-16 mb-4 bg-gray-800 rounded text-gray-50'>
-                <FaShieldAlt className={''} size={'2rem'} />
+                <MdOutlineNetworkCheck className={''} size={'2rem'} />
               </div>
               <div className='font-bold text-lg mb-2 text-gray-800'>Tes Jaringan</div>
               <p className={'my-2'}>Proses pengujian jaringan wireless.</p>

@@ -8,9 +8,17 @@ import { LuNetwork, LuWifi } from 'react-icons/lu';
 import { MdOutlineKeyboardArrowRight } from 'react-icons/md';
 import { BiServer, BiGitBranch, BiCctv } from 'react-icons/bi';
 import { FaNetworkWired } from 'react-icons/fa';
-import { MdComputer, MdOutlineDesignServices, MdOutlineInstallMobile, MdCable, MdOutlineSettingsBrightness, MdOutlineNetworkCheck } from 'react-icons/md';
+import {
+  MdComputer,
+  MdOutlineDesignServices,
+  MdCable,
+  MdSettingsSystemDaydream,
+  MdOutlineSettingsBrightness,
+  MdOutlineNetworkCheck,
+} from 'react-icons/md';
 import { RiSurveyLine } from 'react-icons/ri';
 import { PiShareNetworkFill } from 'react-icons/pi';
+import { GrSystem } from 'react-icons/gr';
 
 
 type Props = {
@@ -87,7 +95,7 @@ const JasaInstallasiJaringanLan: React.FC<Props> = () => {
             </div>
             <div>
               <div className='flex-none flex justify-center items-center h-16 w-16 mb-4 bg-gray-800 rounded text-gray-50'>
-                <MdOutlineInstallMobile className={''} size={'2rem'} />
+                <MdSettingsSystemDaydream className={''} size={'2rem'} />
               </div>
               <div className='font-bold text-lg mb-2 text-gray-800'>Instalasi</div>
               <p className={'my-2'}>Proses instalasi jaringan LAN.</p>

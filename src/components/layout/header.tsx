@@ -33,6 +33,8 @@ const Header: React.FC<Props> = () => {
 
   useEffect(() => {
     onClickOverlay(false);
+    setShowProfile(false);
+    setShowService(false);
   }, [router.pathname]);
 
   useEffect(() => {
@@ -120,7 +122,7 @@ const Header: React.FC<Props> = () => {
                         <Link href={'/layanan/jasa-installasi-cctv'}>
                           <div className={'block px-4 py-3 text-gray-600 text-sm capitalize duration-300 hover:bg-gray-200 hover:text-gray-700'}>{'Jasa Installasi CCTV'}</div>
                         </Link>
-                        <Link href={'#'}>
+                        <Link href={'/layanan/supplier-hardware'}>
                           <div className={'block px-4 py-3 text-gray-600 text-sm capitalize duration-300 hover:bg-gray-200 hover:text-gray-700'}>{'Supplier Hardware'}</div>
                         </Link>
                       </div>
