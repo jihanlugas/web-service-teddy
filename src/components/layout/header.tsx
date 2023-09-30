@@ -131,7 +131,7 @@ const Header: React.FC<Props> = () => {
                   <Link href={'/it-support'} className={''}>
                     <div className="py-2 px-4 rounded duration-300 text-gray-800 hover:bg-gray-200">{'Managed IT Support'}</div>
                   </Link>
-                  <div className="relative inline-block text-left p-2" ref={refProfile}>
+                  {/* <div className="relative inline-block text-left p-2" ref={refProfile}>
                     <div onClick={() => setShowProfile(!showProfile)}>
                       <div className="py-2 px-4 rounded duration-300 text-gray-800 hover:bg-gray-200 flex justify-between items-center">
                         <div className='mr-4 select-none'>{'Profile'}</div>
@@ -150,11 +150,11 @@ const Header: React.FC<Props> = () => {
                         </Link>
                       </div>
                     </div>
-                  </div>
+                  </div> */}
                   <Link href={'/portfolio'} className={''}>
                     <div className="py-2 px-4 rounded duration-300 text-gray-800 hover:bg-gray-200">{'Portfolio'}</div>
                   </Link>
-                  <Link href={'/about'} className={''}>
+                  <Link href={'/kontak'} className={''}>
                     <div className="py-2 px-4 rounded duration-300 text-gray-800 hover:bg-gray-200">{'Kontak'}</div>
                   </Link>
                 </div>
@@ -207,7 +207,7 @@ const Header: React.FC<Props> = () => {
                     <Link href={'/it-support'} className={''}>
                       <div className="p-2 mb-2 rounded duration-300 text-gray-800 hover:bg-gray-200">{'Managed IT Support'}</div>
                     </Link>
-                    <div className={''}>
+                    {/* <div className={''}>
                       <div className="mb-2  text-gray-800 ">
                         <div className='p-2 rounded flex justify-between hover:bg-gray-200' onClick={() => setShowProfileMobile(!showProfileMobile)}>
                           <div>{'Profile'}</div>
@@ -222,11 +222,11 @@ const Header: React.FC<Props> = () => {
                           </Link>
                         </div>
                       </div>
-                    </div>
+                    </div> */}
                     <Link href={'#'} className={''}>
                       <div className="p-2 mb-2 rounded duration-300 text-gray-800 hover:bg-gray-200">{'Portfolio'}</div>
                     </Link>
-                    <Link href={'#'} className={''}>
+                    <Link href={'/kontak'} className={''}>
                       <div className="p-2 mb-2 rounded duration-300 text-gray-800 hover:bg-gray-200">{'Kontak'}</div>
                     </Link>
                   </div>

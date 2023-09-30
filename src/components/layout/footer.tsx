@@ -55,52 +55,37 @@ const Footer: React.FC<Props> = () => {
                 <strong>Layanan</strong>
               </div>
               <div className="mb-2">
-                <Link href={'#'}>
-                  <div className="duration-300 text-gray-400 hover:text-gray-50">Managed IT Support</div>
+                <Link href={'/layanan/jasa-installasi-jaringan-lan'}>
+                  <div className={'duration-300 text-gray-400 hover:text-gray-50'}>{'Jasa Installasi Jaringan LAN'}</div>
                 </Link>
               </div>
               <div className="mb-2">
-                <Link href={'#'}>
-                  <div className="duration-300 text-gray-400 hover:text-gray-50">Jasa Instalasi Fiber Optik</div>
+                <Link href={'/layanan/jasa-installasi-fiber-optik'}>
+                  <div className={'duration-300 text-gray-400 hover:text-gray-50'}>{'Jasa Installasi Fiber Optic'}</div>
                 </Link>
               </div>
               <div className="mb-2">
-                <Link href={'#'}>
-                  <div className="duration-300 text-gray-400 hover:text-gray-50">Jasa Instalasi Wireless</div>
+                <Link href={'/layanan/jasa-installasi-wireless'}>
+                  <div className={'duration-300 text-gray-400 hover:text-gray-50'}>{'Jasa Installasi Wireless'}</div>
                 </Link>
               </div>
               <div className="mb-2">
-                <Link href={'#'}>
-                  <div className="duration-300 text-gray-400 hover:text-gray-50">Jasa Instalasi Data Center</div>
+                <Link href={'/layanan/jasa-installasi-server'}>
+                  <div className={'duration-300 text-gray-400 hover:text-gray-50'}>{'Jasa Installasi Server'}</div>
                 </Link>
               </div>
               <div className="mb-2">
-                <Link href={'#'}>
-                  <div className="duration-300 text-gray-400 hover:text-gray-50">Jasa Instalasi Server</div>
+                <Link href={'/layanan/jasa-installasi-cctv'}>
+                  <div className={'duration-300 text-gray-400 hover:text-gray-50'}>{'Jasa Installasi CCTV'}</div>
                 </Link>
               </div>
               <div className="mb-2">
-                <Link href={'#'}>
-                  <div className="duration-300 text-gray-400 hover:text-gray-50">Jasa Instalasi dan Hardware Supplier</div>
-                </Link>
-              </div>
-              <div className="mb-2">
-                <Link href={'#'}>
-                  <div className="duration-300 text-gray-400 hover:text-gray-50">Jasa Instalasi CCTV</div>
-                </Link>
-              </div>
-              <div className="mb-2">
-                <Link href={'#'}>
-                  <div className="duration-300 text-gray-400 hover:text-gray-50">Jasa Instalasi Jaringan LAN Kantor</div>
-                </Link>
-              </div>
-              <div className="mb-2">
-                <Link href={'#'}>
-                  <div className="duration-300 text-gray-400 hover:text-gray-50">Jasa Instalasi Tower atau Menara Triangle</div>
+                <Link href={'/layanan/supplier-hardware'}>
+                  <div className={'duration-300 text-gray-400 hover:text-gray-50'}>{'Supplier Hardware'}</div>
                 </Link>
               </div>
             </div>
-            <div className="mb-8">
+            {/* <div className="mb-8">
               <div className="my-4 text-lg">
                 <strong>Perusahaan</strong>
               </div>
@@ -119,7 +104,7 @@ const Footer: React.FC<Props> = () => {
                   <div className="duration-300 text-gray-400 hover:text-gray-50">Kontak</div>
                 </Link>
               </div>
-            </div>
+            </div> */}
             <div className="mb-8">
               <div className="my-4 text-lg">
                 <strong>Informasi</strong>
