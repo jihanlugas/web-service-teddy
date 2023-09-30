@@ -7,8 +7,11 @@ import { useState } from 'react';
 import { LuNetwork, LuWifi } from 'react-icons/lu';
 import { MdOutlineKeyboardArrowRight } from 'react-icons/md';
 import { BiServer, BiGitBranch, BiCctv } from 'react-icons/bi';
-import { FaShieldAlt } from 'react-icons/fa';
-import { MdComputer } from 'react-icons/md';
+import { FaShieldAlt, FaNetworkWired, FaBroadcastTower } from 'react-icons/fa';
+import { MdComputer, MdOutlineNetworkCheck } from 'react-icons/md';
+import { PiDesktopTower } from 'react-icons/pi';
+import { TbDeviceDesktopStar } from 'react-icons/tb';
+import { BiPhoneCall } from 'react-icons/bi';
 
 
 type Props = {
@@ -64,42 +67,42 @@ const SupplierHardware: React.FC<Props> = () => {
           <div className='grid grid-cols-1 md:grid-cols-4 gap-6 md:gap-4'>
             <div>
               <div className='flex-none flex justify-center items-center h-16 w-16 mb-4 bg-gray-800 rounded text-gray-50'>
-                <FaShieldAlt className={''} size={'2rem'} />
+                <FaNetworkWired className={''} size={'2rem'} />
               </div>
               <div className='font-bold text-lg mb-2 text-gray-800'>Perangkat Jaringan Komputer</div>
               <p className={'my-2'}>Perencanaan spesifikasi dan pembelian Perangkat Jaringan Komputer.</p>
             </div>
             <div>
               <div className='flex-none flex justify-center items-center h-16 w-16 mb-4 bg-gray-800 rounded text-gray-50'>
-                <FaShieldAlt className={''} size={'2rem'} />
+                <PiDesktopTower className={''} size={'2rem'} />
               </div>
               <div className='font-bold text-lg mb-2 text-gray-800'>Perangkat Komputer & Komponen Komputer</div>
               <p className={'my-2'}>Perencanaan spesifikasi dan pembelian Perangkat Komputer & Komponen Komputer.</p>
             </div>
             <div>
               <div className='flex-none flex justify-center items-center h-16 w-16 mb-4 bg-gray-800 rounded text-gray-50'>
-                <FaShieldAlt className={''} size={'2rem'} />
+                <MdOutlineNetworkCheck className={''} size={'2rem'} />
               </div>
               <div className='font-bold text-lg mb-2 text-gray-800'>Aksesoris Komputer & Jaringan Komputer</div>
               <p className={'my-2'}>Perencanaan spesifikasi dan pembelian Perangkat Aksesoris Komputer & Jaringan Komputer.</p>
             </div>
             <div>
               <div className='flex-none flex justify-center items-center h-16 w-16 mb-4 bg-gray-800 rounded text-gray-50'>
-                <FaShieldAlt className={''} size={'2rem'} />
+                <FaBroadcastTower className={''} size={'2rem'} />
               </div>
               <div className='font-bold text-lg mb-2 text-gray-800'>Perangkat Infrastrukture Jaringan Komputer</div>
               <p className={'my-2'}>Perencanaan spesifikasi dan pembelian Perangkat Infrastruktur Jaringan Komputer.</p>
             </div>
             <div>
               <div className='flex-none flex justify-center items-center h-16 w-16 mb-4 bg-gray-800 rounded text-gray-50'>
-                <FaShieldAlt className={''} size={'2rem'} />
+                <BiServer className={''} size={'2rem'} />
               </div>
               <div className='font-bold text-lg mb-2 text-gray-800'>Perangkat Server (Software & Hardware)</div>
               <p className={'my-2'}>Perencanaan spesifikasi dan pembelian Perangkat Server.</p>
             </div>
             <div>
               <div className='flex-none flex justify-center items-center h-16 w-16 mb-4 bg-gray-800 rounded text-gray-50'>
-                <FaShieldAlt className={''} size={'2rem'} />
+                <BiPhoneCall className={''} size={'2rem'} />
               </div>
               <div className='font-bold text-lg mb-2 text-gray-800'>Perangkat PABX</div>
               <p className={'my-2'}>Perencanaan spesifikasi dan pembelian Perangkat PABX.</p>
@@ -113,7 +116,7 @@ const SupplierHardware: React.FC<Props> = () => {
             </div>
             <div>
               <div className='flex-none flex justify-center items-center h-16 w-16 mb-4 bg-gray-800 rounded text-gray-50'>
-                <FaShieldAlt className={''} size={'2rem'} />
+                <TbDeviceDesktopStar className={''} size={'2rem'} />
               </div>
               <div className='font-bold text-lg mb-2 text-gray-800'>Maintenance Perangkat</div>
               <p className={'my-2'}>Selain pengadaan kamu juga menyediakan jasa maintenance perangkat jaringan perusahaan anda.</p>
@@ -403,7 +406,7 @@ const SupplierHardware: React.FC<Props> = () => {
               </div>
               <div>
                 <h3>Jasa IT Support</h3>
-                <p className='text-justify'>Perawatan jaringan sangat diperlukan setiap 1 bulan sekali maupun 3 bulan sekali, demi keamanan dan kelancaran komunikasi. Peta Network menyediakan jasa it support dan memudahkan perawatan jaringan di perusahaan anda.</p>
+                <p className='text-justify'>Perawatan jaringan sangat diperlukan setiap 1 bulan sekali maupun 3 bulan sekali, demi keamanan dan kelancaran komunikasi. Kami menyediakan jasa it support dan memudahkan perawatan jaringan di perusahaan anda.</p>
               </div>
               <div>
                 <h3>IT Support Services</h3>

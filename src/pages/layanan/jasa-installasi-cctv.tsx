@@ -71,7 +71,7 @@ const JasaInstallasiCctv: React.FC<Props> = () => {
                 <VscPackage className={''} size={'2rem'} />
               </div>
               <div className='font-bold text-lg mb-2 text-gray-800'>Pengadaan Perangkat</div>
-              <p className={'my-2'}>Selain jasa instalasi Peta Network juga menyediakan jasa pengadaan perangkat.</p>
+              <p className={'my-2'}>Selain jasa instalasi kami juga menyediakan jasa pengadaan perangkat.</p>
             </div>
             <div>
               <div className='flex-none flex justify-center items-center h-16 w-16 mb-4 bg-gray-800 rounded text-gray-50'>
@@ -441,7 +441,7 @@ const JasaInstallasiCctv: React.FC<Props> = () => {
               </div>
               <div>
                 <h3>Jasa IT Support</h3>
-                <p className='text-justify'>Perawatan jaringan sangat diperlukan setiap 1 bulan sekali maupun 3 bulan sekali, demi keamanan dan kelancaran komunikasi. Peta Network menyediakan jasa it support dan memudahkan perawatan jaringan di perusahaan anda.</p>
+                <p className='text-justify'>Perawatan jaringan sangat diperlukan setiap 1 bulan sekali maupun 3 bulan sekali, demi keamanan dan kelancaran komunikasi. Kami menyediakan jasa it support dan memudahkan perawatan jaringan di perusahaan anda.</p>
               </div>
               <div>
                 <h3>IT Support Services</h3>

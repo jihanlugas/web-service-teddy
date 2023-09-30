@@ -404,7 +404,7 @@ const Index: React.FC<Props> = () => {
               </div>
               <div>
                 <h3>Jasa IT Support</h3>
-                <p className='text-justify'>Perawatan jaringan sangat diperlukan setiap 1 bulan sekali maupun 3 bulan sekali, demi keamanan dan kelancaran komunikasi. Peta Network menyediakan jasa it support dan memudahkan perawatan jaringan di perusahaan anda.</p>
+                <p className='text-justify'>Perawatan jaringan sangat diperlukan setiap 1 bulan sekali maupun 3 bulan sekali, demi keamanan dan kelancaran komunikasi. Kami menyediakan jasa it support dan memudahkan perawatan jaringan di perusahaan anda.</p>
               </div>
               <div>
                 <h3>IT Support Services</h3>

@@ -45,7 +45,7 @@ const JasaInstallasiServer: React.FC<Props> = () => {
           <div className='max-w-6xl mx-auto'>
             <div className='absolute h-96 w-full max-w-xl flex flex-col justify-center text-gray-50 p-4'>
               <h1 className='font-bold text-gray-50 my-4'>{'Jasa Instalasi Server'}</h1>
-              <p className='mt-0 mb-4 md:mb-8 text-justify'>{'Peta Network sebagai perusahaan yang berpengalaman puluhan tahun menangani server di berbagai institusi terkemuka di Indonesia, bisa membantu institusi anda untuk jasa instalasi, jasa maintenance maupun untuk perawatan server anda'}</p>
+              <p className='mt-0 mb-4 md:mb-8 text-justify'>{'Kami sebagai perusahaan yang berpengalaman puluhan tahun menangani server di berbagai institusi terkemuka di Indonesia, bisa membantu institusi anda untuk jasa instalasi, jasa maintenance maupun untuk perawatan server anda'}</p>
               <div className='flex justify-start'>
                 <Link href={'#'}>
                   <div className='flex items-center duration-300 bg-primary-600 hover:bg-primary-500 text-gray-200 hover:text-gray-50 px-4 py-2 rounded'>
@@ -450,7 +450,7 @@ const JasaInstallasiServer: React.FC<Props> = () => {
               </div>
               <div>
                 <h3>Jasa IT Support</h3>
-                <p className='text-justify'>Perawatan jaringan sangat diperlukan setiap 1 bulan sekali maupun 3 bulan sekali, demi keamanan dan kelancaran komunikasi. Peta Network menyediakan jasa it support dan memudahkan perawatan jaringan di perusahaan anda.</p>
+                <p className='text-justify'>Perawatan jaringan sangat diperlukan setiap 1 bulan sekali maupun 3 bulan sekali, demi keamanan dan kelancaran komunikasi. Kami menyediakan jasa it support dan memudahkan perawatan jaringan di perusahaan anda.</p>
               </div>
               <div>
                 <h3>IT Support Services</h3>
