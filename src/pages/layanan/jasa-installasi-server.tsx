@@ -30,8 +30,8 @@ const JasaInstallasiServer: React.FC<Props> = () => {
   return (
     <>
       <Head>
-        <title>{process.env.APP_NAME}</title>
-        {/* <meta name="description" content={description} /> */}
+        <title>{process.env.APP_NAME + ' - Jasa Instalasi Server'}</title>
+        <meta name="description" content={'Kami sebagai perusahaan yang berpengalaman puluhan tahun menangani server di berbagai institusi terkemuka di Indonesia, bisa membantu institusi anda untuk jasa instalasi, jasa maintenance maupun untuk perawatan server anda'} />
       </Head>
       <div className='bg-neutral-800'>
         <div className='h-96 relative'>

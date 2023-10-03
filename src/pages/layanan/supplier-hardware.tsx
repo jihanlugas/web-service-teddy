@@ -29,8 +29,8 @@ const SupplierHardware: React.FC<Props> = () => {
   return (
     <>
       <Head>
-        <title>{process.env.APP_NAME}</title>
-        {/* <meta name="description" content={description} /> */}
+        <title>{process.env.APP_NAME + ' - Supplier Hardware'}</title>
+        <meta name="description" content={'Melayani permintaan penawaran harga untuk Perangkat-Perangkat Networking. Kami bisa melayani berbagai segmen yang ada. Mulai skala kecil, menengah, sampai skala besar. Kami bisa menyesuaikan penawaran perangkat kami sesuai dengan kebutuhan dan budget yang sudah dialokasikan. Dengan pengalaman kami, kami juga bisa merekomendasikan perangkat terbaik yang sesuai dengan kebutuhan anda'} />
       </Head>
       <div className='bg-neutral-800'>
         <div className='h-96 relative'>

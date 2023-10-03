@@ -26,8 +26,8 @@ const Index: React.FC<Props> = () => {
   return (
     <>
       <Head>
-        <title>{process.env.APP_NAME}</title>
-        {/* <meta name="description" content={description} /> */}
+        <title>{process.env.APP_NAME + ' - Hubungi Kami Kapan Saja!'}</title>
+        <meta name="description" content={'Dengan pengalaman lebih dari 15 Tahun dibidang Jaringan & Infrastruktur Komputer, Kami siap membantu menciptakan sistem tata kelola jaringan yang baik untuk perusahaan atau instansi anda.'} />
       </Head>
       <div className='h-full bg-gray-50'>
         <div className='max-w-6xl mx-auto p-4 py-8 md:py-16'>

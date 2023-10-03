@@ -36,8 +36,8 @@ const JasaInstallasiJaringanLan: React.FC<Props> = () => {
   return (
     <>
       <Head>
-        <title>{process.env.APP_NAME}</title>
-        {/* <meta name="description" content={description} /> */}
+        <title>{process.env.APP_NAME + ' - Jasa Instalasi Jaringan LAN'}</title>
+        <meta name="description" content={'Layanan ini berfokus pada kegiatan instalasi, operasi, pemeliharaan dan perbaikan infrastruktur kabel. Pengalaman kami pada penggunaan kabel twisted pair sampai dengan fiber optic akan membantu anda dalam menciptakan media transmisi paling sesuai dengan kebutuhan anda'} />
       </Head>
       <div className='bg-neutral-800'>
         <div className='h-96 relative'>

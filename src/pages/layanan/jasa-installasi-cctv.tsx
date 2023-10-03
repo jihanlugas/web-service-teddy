@@ -30,8 +30,8 @@ const JasaInstallasiCctv: React.FC<Props> = () => {
   return (
     <>
       <Head>
-        <title>{process.env.APP_NAME}</title>
-        {/* <meta name="description" content={description} /> */}
+        <title>{process.env.APP_NAME + ' - Jasa Instalasi CCTV'}</title>
+        <meta name="description" content={'Layanan ini berfokus pada kegiatan instalasi, operasi, pemeliharaan terkait dengan CCTV.'} />
       </Head>
       <div className='bg-neutral-800'>
         <div className='h-96 relative'>

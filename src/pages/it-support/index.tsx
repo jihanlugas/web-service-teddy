@@ -26,8 +26,8 @@ const Index: React.FC<Props> = () => {
   return (
     <>
       <Head>
-        <title>{process.env.APP_NAME}</title>
-        {/* <meta name="description" content={description} /> */}
+        <title>{process.env.APP_NAME + ' - Managed IT Support'}</title>
+        <meta name="description" content={'Pengelolaan jaringan yang baik akan membantu pekerjaan anda menjadi lebih maksimal. Jaringan yang sudah dikelola dengan baik, akan mendukung kelancaran operasional pekerjaan dan meminimalisir potensi-potensi gangguan yang mungkin terjadi. Dengan pengalaman kami dalam mengelola jaringan intranet klien, pada layanan ini kami berfokus untuk mengelola sistem jaringan anda menjadi lebih tertata dan terstruktur'} />
       </Head>
       <div className='bg-neutral-800'>
         <div className='h-96 relative'>

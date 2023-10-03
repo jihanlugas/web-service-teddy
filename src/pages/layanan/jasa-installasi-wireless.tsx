@@ -36,8 +36,8 @@ const JasaInstallasiWireless: React.FC<Props> = () => {
   return (
     <>
       <Head>
-        <title>{process.env.APP_NAME}</title>
-        {/* <meta name="description" content={description} /> */}
+        <title>{process.env.APP_NAME + ' - Jasa Instalasi Wireless'}</title>
+        <meta name="description" content={'Layanan ini berfokus pada kegiatan instalasi, operasi, pemeliharaan dan perbaikan infrastrutkur wireless, Pengalaman kami pada wireless infrastructure akan membantu anda untuk selalu terhubung setiap saat tanpa terbatas jarak'} />
       </Head>
       <div className='bg-neutral-800'>
         <div className='h-96 relative'>

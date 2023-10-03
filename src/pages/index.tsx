@@ -19,7 +19,7 @@ const Index: React.FC<Props> = () => {
     <>
       <Head>
         <title>{process.env.APP_NAME}</title>
-        {/* <meta name="description" content={description} /> */}
+        <meta name="description" content={'Dengan pengalaman lebih dari 15 Tahun dibidang Jaringan & Infrastruktur Komputer, Kami siap membantu menciptakan sistem tata kelola jaringan yang baik untuk perusahaan atau instansi anda'} />
       </Head>
       <div className='bg-gray-800'>
         <div className='h-96 bg-blue-500 relative'>
